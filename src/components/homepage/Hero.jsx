@@ -8,7 +8,7 @@ const Hero = () => {
   
     <div className='  h-full w-full relative m-auto'>
       <div className=' flex h-[calc(100%-80px)] w-[70%] flex-col md:justify-center items-start m-auto text-white'>
-        <div className=' text-3xl md:text-6xl mt-48 md:mt-0 font-semibold'>
+        <div className=' text-3xl md:text-6xl mt-48 md:mt-0 font-gilroy-bold'>
           <h1>scale your business</h1>
           <h1>lead the market.</h1>
         </div>

@@ -1,4 +1,4 @@
-import React, { Suspense,useState } from 'react'
+import React, { Suspense,useEffect,useState } from 'react'
 import Hero from '../components/aboutpage/Hero'
 import Abouts from '../components/aboutpage/Abouts' 
 import Ourself from '../components/aboutpage/Ourself' 
@@ -16,8 +16,6 @@ const About = () => {
     const match=window.matchMedia('(pointer:coarse)');
     return(match && match.matches); 
   }
-
-
   
   return (
     <div className='overflow-hidden'>

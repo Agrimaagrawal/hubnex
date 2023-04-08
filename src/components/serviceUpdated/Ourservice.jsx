@@ -15,7 +15,7 @@ const Ourservice = () => {
   return (
     <div className=' py-10 md:py-10 w-full bg-black flex justify-center items-center h-auto'>
         <div className=' h-full w-full flex justify-center items-center'>
-            <div className=' w-[70%] flex flex-col justify-evenly gap-5 md:gap-10 md:justify-around h-full items-center text-black'>
+            <div className=' md:w-[70%] xl:w-[80%] lg:w-[98%] flex flex-col justify-evenly gap-5 md:gap-10 md:justify-around h-full items-center text-black'>
                 <div className='w-full gap-5 flex flex-col items-center justify-center'>
                     <h1 className=' text-white text-5xl font-bold'>Our Services</h1>
                     <div className=' md:w-[700px] flex items-center justify-center'>

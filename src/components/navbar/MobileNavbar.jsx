@@ -20,7 +20,7 @@ const MobileNavbar = ({ open }) => {
           <NavLink to='/about' className={({ isActive }) => isActive ? 'bg-white px-5 py-2 text-black rounded-full' : ''}>About Us</NavLink>
           <NavLink to='/service' className={({ isActive }) => isActive ? ` bg-white px-5 py-2 text-black rounded-full` : ''}>Services</NavLink>
           <div className=' flex items-center'>
-          <NavLink to='/industries' className={({ isActive }) => isActive ? ` underline decoration-red-600 decoration-2 underline-offset-8 px-5 py-2 text-white rounded-full` : ' flex items-center gap-2'}>Industries</NavLink>
+          <NavLink to='/industries' className={({ isActive }) => isActive ? ` underline decoration-red-600 decoration-2 underline-offset-8  text-white` : ' flex items-center gap-2'}>Industries</NavLink>
           <span onClick={handleIndustries}>{dropIndustries ?<KeyboardArrowUpIcon/>:<KeyboardArrowDown/>}</span>
           </div>
           {

@@ -1,6 +1,5 @@
 import React from 'react'
-import hands from '../../assets/hands.png'
-import '../startup/style.css'
+import './startup/style.css'
 
 const Aboutus = () => {
   return (
@@ -13,9 +12,6 @@ const Aboutus = () => {
             <h2>UI/UX Designer</h2></div>
 
         </div>
-        
-
-
     </div>
     </>
   )

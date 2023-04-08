@@ -1,13 +1,11 @@
 import React from 'react'
-// import Hero from '../components/servicepage/Hero'
+
 import Hero from '../components/serviceUpdated/Hero'
-// import Ourservice from '../components/servicepage/Ourservice'
 import Ourservice from '../components/serviceUpdated/Ourservice'
 import Choose from '../components/serviceUpdated/Choose'
 import Partners from '../components/aboutpage/Partners'
 import Footer from '../components/footer/Footer'
-// import Aboutus from '../components/servicepage/Aboutus'
-import Aboutus from '../components/serviceUpdated/Aboutus'
+import Ourself from '../components/Aboutus'
 import Swiperpartners from '../components/aboutpage/Swiperpartners'
 
 const Services = () => {
@@ -22,7 +20,7 @@ const Services = () => {
         <Hero/>
         <Ourservice/>
         <Choose/>
-        <Aboutus/> 
+        <Ourself/> 
         {isMobile()? <Swiperpartners/> :<Partners/>}
         <Footer/>
     </div>

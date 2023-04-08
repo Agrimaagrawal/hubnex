@@ -14,7 +14,7 @@ const Hero = () => {
     <div className='w-52 h-40 rounded-full bg-slate-400 absolute top-8 left-6 ' id="circle"></div>
     <div className=' w-[80%] flex items-center justify-center '>
         <div className=' text-white relative h-auto py-10 flex flex-col items-center gap-10 w-[600px] max-[820px]:text-center'>
-            <img src={styleArrow} alt="styledArrow" className=' absolute -bottom-5 w-32 left-20' />
+            <img src={styleArrow} alt="styledArrow" className=' absolute -bottom-10 md:-bottom-5 w-32 left-2 md:left-20' />
             <div className=' flex flex-col w-full items-center gap-5'>
             <span className=' text-4xl  font-bold md:text-5xl text-center'>Helping business</span>
             <p className=' text-4xl font-bold md:text-5xl text-center'>through technology</p>

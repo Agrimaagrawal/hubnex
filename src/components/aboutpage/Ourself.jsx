@@ -18,13 +18,14 @@ const Ourself = () => {
                             <p className='text-sm mt-5'>We provide industry expertise and solution IPs to help customers achieve successful business outcomes.</p>
                             
                         </div>
-                        
+                        <hr className=' md:h-[60%] w-[50%] md:w-0 border-[1px] border-gray-500'/>
                           
                         <div className='w-64 text-center mb-4 lg:mr-9 '>
                             <span className=' text-xl font-semibold '>Team-Oriented</span>
                             <p className='text-sm mt-5'>We work together to drive change by setting the bar for future technologies and our way of working.</p>
                         </div>
-                      
+                        <hr className=' md:h-[60%] w-[50%] md:w-0 border-[1px] border-gray-500'/>
+
                         <div className='w-64 text-center max-[360px]:w-60'>
                             <span className=' text-xl font-semibold'>Client-Focused</span>
                             <p className='text-sm mt-5'>We are, above all else, customer-centric. We are in it for the long run and have an unwavering passion for client success, reflected in every aspect of our relationship with them.</p>

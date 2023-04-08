@@ -1,5 +1,4 @@
 import React from 'react'
-// import serviceLander from '../../assets/servicepage1.png'
 import Navbar from '../navbar/Navbar'
 
 const Hero = () => {
@@ -12,9 +11,8 @@ const Hero = () => {
                 <div className=' w-90 flex flex-col gap-10'>
                     <span className=' text-6xl font-gilroy-bold leading-tight'>Services to <br/> help you grow</span>
                     <p className=' text-lg'>"Expert IT Consulting Services to Boost Your Business Growth"</p>
-                    <button className=' bg-white text-black py-2 px-5 border-none w-max rounded-full font-bold'>Get in touch</button>
-                </div>
-                
+                    <button className=' bg-white text-black py-2 px-5 border-none w-max rounded-full font-bold shadow-md shadow-violet-500'>Get in touch</button>
+                </div>  
             </div>
         </div>
     </div>

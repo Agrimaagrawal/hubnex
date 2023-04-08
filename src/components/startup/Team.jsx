@@ -4,6 +4,7 @@ import mission from '@assets/Our-Mission.png.png';
 import philosophy from '@assets/Our-Philosophy.png.png';
 import strategy from '@assets/Our-Strategy.png.png';
 import vision from '@assets/Our-Vision.png.png';
+import t2 from '@assets/team2.png'
 
 const Team = () => {
   return (
@@ -14,11 +15,11 @@ const Team = () => {
              <span>Team</span>
              <div className=' flex flex-col items-center w-full gap-10 m-7'>
               <h1 className=' text-5xl font-semibold'>What We Do</h1>
-              <span className=' text-2xl'>delivering exponential value throughout the care ecosystem</span>
+              <span className=' text-2xl text-center'>delivering exponential value throughout the care ecosystem</span>
 
               <div className=' flex flex-wrap w-full justify-center items-center lg:justify-between'>
 
-                <div className=' h-60 w-60 px-10 rounded-md bg-gray-100 bg-opacity-20 m-7 lg:m-3 border-violet-500 border-2  flex flex-col justify-evenly items-center'>
+                <div className=' h-60 w-60 px-10 rounded-md bg-gray-100 bg-opacity-20 m-7 lg:m-3 border-violet-500 border-[1px] flex flex-col justify-evenly items-center'>
                   <div className='  h-12 rounded-full flex justify-center items-center bg-violet-500'>
                   <img src={mission} alt="mission" className=' w-full h-full p-2'/>
                   </div>
@@ -30,7 +31,8 @@ const Team = () => {
                 </div>
                 
 
-                <div className=' h-60 w-60 px-10 rounded-md bg-gray-100 bg-opacity-20 m-7 lg:m-3 border-violet-500 border-2  flex flex-col justify-evenly items-center'>
+                <div className=' h-60 w-60 px-10 rounded-md bg-gray-100 bg-opacity-20 m-7 lg:m-3 border-violet-500 border-[1px]  flex flex-col justify-evenly items-center'>
+              
                   <div className='  h-12 rounded-full flex justify-center items-center bg-violet-500   '>
                   <img src={philosophy} alt="philosophy" className=' w-full h-full p-2   '/>
                   </div>
@@ -40,7 +42,7 @@ const Team = () => {
                   </div>
                 </div>
 
-                <div className=' h-60 w-60 px-10 rounded-md bg-gray-100 bg-opacity-20 m-7 lg:m-3 border-violet-500 border-2  flex flex-col justify-evenly items-center'>
+                <div className=' h-60 w-60 px-10 rounded-md bg-gray-100 bg-opacity-20 m-7 lg:m-3 border-violet-500 border-[1px]  flex flex-col justify-evenly items-center'>
                   <div className='  h-12 rounded-full flex justify-center items-center bg-violet-500 '>
                   <img src={strategy} alt="strategy" className=' w-full h-full  p-2'/>
                   </div>
@@ -52,7 +54,7 @@ const Team = () => {
                 <div className='w-52 h-40 rounded-full bg-slate-400 absolute right-4' id="circle"></div>
 
 
-                <div className=' h-60 w-60 px-10 rounded-md bg-gray-100 bg-opacity-20 m-7 lg:m-3 border-violet-500 border-2  flex flex-col justify-evenly items-center'>
+                <div className=' h-60 w-60 px-10 rounded-md bg-gray-100 bg-opacity-20 m-7 lg:m-3 border-violet-500 border-[1px] flex flex-col justify-evenly items-center'>
                   <div className='  h-12 rounded-full flex justify-center items-center bg-violet-500'>
                   <img src={vision} alt="vision" className=' w-full h-full p-2'/>
                   </div>

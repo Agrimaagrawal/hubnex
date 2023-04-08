@@ -1,20 +1,23 @@
-import './App.css'
+import React, { Suspense, useEffect, useState } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Root from './routes/Root'
-import React, { Suspense } from 'react'
-import Loader from './components/loader/Loader'
-import { useEffect, useState } from 'react'
-import Access from './components/Access'
-import ProtectedRoute from './components/ProtectedRoute'
 
-const Home = React.lazy(()=> import ('./pages/Home')) 
-const About = React.lazy(()=> import ('./pages/About')) 
-const Services = React.lazy(()=> import('./pages/Services') ) 
-const Industries = React.lazy(()=> import('./pages/Industries') ) 
-const Contact = React.lazy(()=> import('./pages/Contact') ) 
+import Root from './routes/Root'
+import Loader from './components/loader/Loader'
+import './App.css'
+
+
+// Hubnex pages (public)
+const Home = React.lazy(()=> import ('./pages/Home'))
+const About = React.lazy(()=> import ('./pages/About'))
+const Services = React.lazy(()=> import('./pages/Services')) 
+const Industries = React.lazy(()=> import('./pages/Industries')) 
+const Contact = React.lazy(()=> import('./pages/Contact'))
 const Startup = React.lazy(()=> import('./pages/Startup'))
-const Admin = React.lazy(()=> import('./pages/Admin'))
-const Dashboard = React.lazy(()=> import('./components/adminpage/Dashboard')) 
+const Healthcare=React.lazy(()=>import('./components/industrypage/Healthcare'))
+
+// Admin Panel (Private Pages)!
+const Admin = React.lazy(()=> import('./pages/Admin'))    
+const Dashboard = React.lazy(()=> import('./components/adminpage/Dashboard'))     
 const Recruiter = React.lazy(()=> import('./components/adminpage/Recruiter')) 
 const Company = React.lazy(()=> import('./components/adminpage/Company')) 
 const CMS = React.lazy(()=> import('./components/adminpage/CMS')) 
@@ -26,7 +29,6 @@ const Applications = React.lazy(()=> import( './components/adminpage/Application
 const Invoices = React.lazy(()=> import('./components/adminpage/Invoices')) 
 const PushNotify = React.lazy(()=> import('./components/adminpage/PushNotify')) 
 const Help = React.lazy(()=> import('./components/adminpage/Help')) 
-const Healthcare=React.lazy(()=>import('./components/industrypage/Healthcare'))
 const Invest=React.lazy(()=>import('./components/adminpage/Invest'))
 const Terms =React.lazy(()=>import('./components/adminpage/Terms'))
 
@@ -130,11 +132,6 @@ function App() {
               path: '/startup-program',
               element: <Suspense fallback={<Loader/>}><Startup/></Suspense>
             },
-            
-            {
-              path: '/access',
-              element: <Suspense fallback={<Loader/>}><Access/></Suspense>
-            },
             {
               path: '/admin',
               element:  <Suspense fallback={<Loader/>}><Admin/></Suspense>,
@@ -208,7 +205,7 @@ function App() {
   );
 
   return (
-    <div className=' font-gilroy'>
+    <div>
       {loading ? 
         <Loader/> 
       :

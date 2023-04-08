@@ -8,7 +8,7 @@ const Work = () => {
     <div className=' h-screen w-full relative bg-black flex justify-center items-center'>
     <img src={thanos} className=' md:hidden absolute bottom-0 left-0 brightness-[50%] w-full h-[500px] object-cover'/>
     <img src={vector2} className=' absolute h-full w-full brightness-[20%]'/>
-        <div className=' w-[80%] h-full flex flex-col justify-evenly md:justify-center md:items-center gap-10 md:gap-0 text-white'>
+        <div className=' w-[80%] h-full flex flex-col justify-evenly md:justify-center md:items-center md:gap-10 md:gap-0 text-white'>
             <div className=' flex flex-col gap-3 justify-center items-center z-30'>
                 <span className=' text-4xl md:text-5xl font-bold'>What We Do</span>
                 <p className=' text-lg text-center'>Delivering exponential value throughout the care ecosystem</p>

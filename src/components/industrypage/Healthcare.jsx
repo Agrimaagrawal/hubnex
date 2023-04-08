@@ -1,10 +1,17 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
-import Ourself from '../servicepage/Aboutus'
+import Ourself from '../Aboutus'
 import Partner from '../aboutpage/Partners'
 import Footer from '../footer/Footer'
+import Swiperpartners from '../aboutpage/Swiperpartners'
 
 const Healthcare = () => {
+
+    const isMobile=()=> {
+        const match=window.matchMedia('(pointer:coarse)');
+        return(match && match.matches); 
+      }
+
   return (
     <>
      <div className=' h-screen bg-healthindus bg-cover bg-center w-full relative '>
@@ -12,7 +19,7 @@ const Healthcare = () => {
     <div className=' h-screen w-full flex items-center justify-center'>
         <div className=' w-[80%] flex items-center'>
             <div className=' text-white flex flex-col gap-10 w-90 max-[820px]:text-center'>
-                <span className=' text-4xl md:text-5xl'>empowering <br/> healthcare with AI</span>
+                <span className=' text-4xl md:text-5xl font-gilroy-bold'>empowering <br/> healthcare with AI</span>
                 <p className=' text-lg '>We help you realize intelligent, connected, <br></br>and patient-centric healthcare.</p>
                 <button className=' w-max py-2 px-5 bg-white text-black rounded-full max-[820px]:mx-auto'>Let's talk</button>
             </div>
@@ -20,7 +27,7 @@ const Healthcare = () => {
     </div>
     </div>
     
-    <div className='min-h-screen w-full bg-bgblack flex items-center flex-col'>
+    <div className=' h-auto py-10 md:py-0 md:min-h-screen w-full bg-bgblack flex items-center flex-col'>
         <div className=' text-white xl:mt-20'>
             <h1 className='font-extrabold xl:text-5xl text-2xl font-gilroy p-6 text-center'>Innovating for the Future of Care</h1>
 
@@ -72,7 +79,7 @@ const Healthcare = () => {
 
     </div>
 
-    <div className='bg-bgblack min-h-screen flex justify-center items-center flex-col '>
+    <div className='bg-bgblack h-auto py-10 md:py-0 md:min-h-screen flex justify-center items-center flex-col '>
             <div className='text-white text-5xl font-gilroy font-bold '><h1>What We Do</h1></div>
             <div className='text-white text-lg font-gilroy p-6' ><p>Delivering exponential value throughout the care ecosystem</p></div>
             <div className='flex flex-wrap justify-center'>
@@ -103,7 +110,7 @@ const Healthcare = () => {
 
         </div>
         <Ourself/>
-        <Partner/>
+         {isMobile() ? <Swiperpartners/> : <Partner/> }
         <Footer/>
     </>
   )

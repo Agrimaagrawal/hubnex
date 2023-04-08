@@ -12,11 +12,7 @@ const Aboutus = () => {
             <div className='lg:w-[60%] w-[80%] '><p>Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. </p></div>
             <div><h1 className='font-bold' >Rahul Sarkar</h1>
             <h2>UI/UX Designer</h2></div>
-
         </div>
-        
-
-
     </div>
     </>
   )
