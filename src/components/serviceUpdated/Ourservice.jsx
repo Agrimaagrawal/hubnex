@@ -24,9 +24,9 @@ const Ourservice = () => {
                     </div>
                 </div>
                 
-                <div className='  flex flex-wrap w-full md:justify-between justify-center gap-5 '>
+                <div className='  flex flex-wrap w-full md:justify-between justify-center gap-5  '>
 
-                <div className=' card h-52 w-80 px-5 relative rounded-md bg-brown-100 bg-opacity-20  border-500 border-2  flex flex-col justify-evenly '>
+                <div className=' card h-52 w-80 px-5 relative rounded-md bg-100 bg-opacity-20  border-500 border-2  flex flex-col justify-evenly '>
                   <span className=' absolute right-5 top-2 text-5xl text-gray-400 font-gilroy-bold'>01</span>
                   <div className='  w-10 h-10 rounded-full flex justify-center items-center bg-500'>
                   <img src={testImg1} alt="" className=' w-full h-full '/>
@@ -37,7 +37,7 @@ const Ourservice = () => {
                   </div>
                 </div>
 
-                <div className=' card h-52 relative w-80 px-5 rounded-md bg-black-100 bg-opacity-20  border-blue-500 border-2  flex flex-col justify-evenly '>
+                <div className=' card h-52 relative w-80 px-5 rounded-md bg-black-100 bg-opacity-20  border -500 border-2  flex flex-col justify-evenly '>
                   <span className=' absolute right-5 top-2 text-5xl text-gray-400 font-gilroy-bold'>02</span>
                   <div className=' w-10 h-10 rounded-full flex justify-center items-center bg-500'>
                   <img src={testImg2} alt="" className=' w-full h-full '/>
@@ -49,7 +49,7 @@ const Ourservice = () => {
                 </div>
                 
 
-                <div className='card h-52 relative w-80 px-5 rounded-md bg-black-100 bg-opacity-20  border-blue-500 border-2  flex flex-col justify-evenly '>
+                <div className='card h-52 relative w-80 px-5 rounded-md bg-black-100 bg-opacity-20  border -500 border-2  flex flex-col justify-evenly '>
                   <span className=' absolute right-5 top-2 text-5xl text-gray-400 font-gilroy-bold'>03</span>
                   <div className=' w-10 h-10 rounded-full flex justify-center items-center bg--500'>
                   <img src={testImg3} alt="" className=' w-full h-full rounded-full'/>
@@ -60,7 +60,7 @@ const Ourservice = () => {
                   </div>
                 </div>
 
-                <div className='card h-52 relative w-80 px-5 rounded-md bg-black-100 bg-opacity-20  border-blue-500 border-2  flex flex-col justify-evenly '>
+                <div className='card h-52 relative w-80 px-5 rounded-md bg-black-100 bg-opacity-20  border -500 border-2  flex flex-col justify-evenly '>
                   <span className=' absolute right-5 top-2 text-5xl text-gray-400 font-gilroy-bold'>04</span>
                   <div className=' w-10 h-10 rounded-full flex justify-center items-center bg--500'>
                   <img src={testImg4} alt="" className=' w-full h-full rounded-full'/>
@@ -71,7 +71,7 @@ const Ourservice = () => {
                   </div>
                 </div>
 
-                <div className='card h-52 relative w-80 px-5 rounded-md bg-black-100 bg-opacity-20  border-blue-500 border-2  flex flex-col justify-evenly '>
+                <div className='card h-52 relative w-80 px-5 rounded-md bg-black-100 bg-opacity-20  border -500 border-2  flex flex-col justify-evenly '>
                   <span className=' absolute right-5 top-2 text-5xl text-gray-400 font-gilroy-bold'>05</span>
                   <div className=' w-10 h-10 rounded-full flex justify-center items-center bg--500'>
                   <img src={testImg5} alt="" className=' w-full h-full rounded-full'/>
@@ -83,7 +83,7 @@ const Ourservice = () => {
                 </div>
                 
 
-                <div className='card h-52 relative w-80 px-5 rounded-md bg-black-100 bg-opacity-20  border-blue-500 border-2  flex flex-col justify-evenly '>
+                <div className='card h-52 relative w-80 px-5 rounded-md bg-black-100 bg-opacity-20  border -500 border-2  flex flex-col justify-evenly '>
                   <span className=' absolute right-5 top-2 text-5xl text-gray-400 font-gilroy-bold'>06</span>
                   <div className=' w-10 h-10 rounded-full flex justify-center items-center bg--500'>
                   <img src={testImg6} alt="" className=' w-full h-full rounded-full'/>
@@ -94,7 +94,7 @@ const Ourservice = () => {
                   </div>
                 </div>
 
-                <div className='card h-52 relative w-80 px-5 rounded-md bg-black-100 bg-opacity-20  border-blue-500 border-2  flex flex-col justify-evenly '>
+                <div className='card h-52 relative w-80 px-5 rounded-md bg-black-100 bg-opacity-20  border -500 border-2  flex flex-col justify-evenly '>
                   <span className=' absolute right-5 top-2 text-5xl text-gray-400 font-gilroy-bold'>07</span>
                   <div className=' w-10 h-10 rounded-full flex justify-center items-center bg--500'>
                   <img src={testImg7} alt="" className=' w-full h-full rounded-full'/>
@@ -105,7 +105,7 @@ const Ourservice = () => {
                   </div>
                 </div>
 
-                <div className='card h-52 relative w-80 px-5 rounded-md bg-black-100 bg-opacity-20  border-blue-500 border-2  flex flex-col justify-evenly '>
+                <div className='card h-52 relative w-80 px-5 rounded-md bg-black-100 bg-opacity-20  border -500 border-2  flex flex-col justify-evenly '>
                   <span className=' absolute right-5 top-2 text-5xl text-gray-400 font-gilroy-bold'>08</span>
                   <div className=' w-10 h-10 rounded-full flex justify-center items-center bg--500'>
                   <img src={testImg8} alt="" className=' w-full h-full rounded-full'/>
@@ -117,7 +117,7 @@ const Ourservice = () => {
                 </div>
                 
 
-                <div className='card  h-52 w-80 relative px-5 rounded-md bg-black-100 bg-opacity-20  border-blue-500 border-2  flex flex-col justify-evenly '>
+                <div className='card  h-52 w-80 relative px-5 rounded-md bg-black-100 bg-opacity-20  border -500 border-2  flex flex-col justify-evenly '>
                   <span className=' absolute right-5 top-2 text-5xl text-gray-400 font-gilroy-bold'>09</span>
                   <div className=' w-10 h-10 rounded-full flex justify-center items-center bg--500'>
                   <img src={testImg9} alt="" className=' w-full h-full rounded-full'/>

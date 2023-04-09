@@ -2,8 +2,17 @@
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0px 2px 10px rgba(100, 100, 100, 0.08);
     backdrop-filter: blur(45px);
-    border: 1px solid;
-    border-image: linear-gradient(50deg, rgba(13, 164, 224, 0.9), rgba(130, 197, 224, 0.38)) 1;
+    border: 0.8px solid;
+    
+    border-image: linear-gradient(133.58deg, rgba(13, 164, 224, 0.9)39.01%, rgba(108, 197, 233, 0.59) 74.94%, rgba(130, 197, 224, 0.38) 83.32%) 1;
+
+
+    
+
+
+
+
+    
     }
     .size{
         /* font-family: 'Gilroy'; */
