@@ -3,15 +3,8 @@
     box-shadow: 0px 2px 10px rgba(100, 100, 100, 0.08);
     backdrop-filter: blur(45px);
     border: 0.8px solid;
-    
+    border-radius: 18px;
     border-image: linear-gradient(133.58deg, rgba(13, 164, 224, 0.9)39.01%, rgba(108, 197, 233, 0.59) 74.94%, rgba(130, 197, 224, 0.38) 83.32%) 1;
-
-
-    
-
-
-
-
     
     }
     .size{
