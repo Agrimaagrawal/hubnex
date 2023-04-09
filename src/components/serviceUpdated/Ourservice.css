@@ -1,0 +1,21 @@
+.card{  
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 2px 10px rgba(100, 100, 100, 0.08);
+    backdrop-filter: blur(45px);
+    border: 1px solid;
+    border-image: linear-gradient(50deg, rgba(13, 164, 224, 0.9), rgba(130, 197, 224, 0.38)) 1;
+    }
+    .size{
+        /* font-family: 'Gilroy'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 139% */
+    
+    letter-spacing: 0.01em;
+    }
+    
+    
+    
+    
