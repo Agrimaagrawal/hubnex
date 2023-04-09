@@ -3,12 +3,12 @@ import line from '../../assets/line.png'
 
 const Ourself = () => {
   return (
-    <div className=" h-auto md:py-0 py-24 md:h-screen w-full bg-earth bg-cover">
+    <div className=" h-auto md:py-0 py-24 md:h-screen xl:w-[1560px] xl:h-[1024px] bg-earth bg-cover">
         <div className=' h-full w-full flex justify-center '>
             <div className=' w-[80%] flex justify-between '>
                 <div className=' w-full flex flex-col gap-20 text-white   '>
                    <div className=' w-90 flex flex-col gap-5 text-center md:mt-40 '>
-                    <span className=' text-4xl lg:text-5xl font-bold '>Who We Are</span>
+                    <span className=' text-[65px] lg:text-5xl font-gilroy-semi-bold'>Who We Are</span>
                     <p className='text-center '>Our values shape the culture of our organization and define who we are. These are at the core<br></br> of how we work and what we do. We are:</p>
                    </div>
 

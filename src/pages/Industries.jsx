@@ -1,9 +1,11 @@
 import React from 'react'
 import Hero from '../components/industrypage/Hero'
-import Testimonial from '../components/industrypage/Testimonial'
+import Footer from '../components/Footer/Footer'
+import Innovation from '../components/industrypage/Innovation'
 import Work from '../components/industrypage/Work'
-import Footer from '../components/footer/Footer'
-import Cards from '../components/industrypage/Cards'
+import Ourself from '../components/Aboutus'
+import Partners from '../components/aboutpage/Partners'
+import Swiperpartners from '../components/aboutpage/Swiperpartners'
 
 
 const Industries = ()=>{
@@ -17,9 +19,11 @@ const Industries = ()=>{
   return (
     <div className=' overflow-hidden'>
         <Hero/>
-        <Cards/>
+        <Innovation/>
         <Work/>
-        <Testimonial/>
+        <Ourself/>
+        {isMobile()? <Swiperpartners/> :<Partners/>}
+        
         <Footer />
     </div>
   )
