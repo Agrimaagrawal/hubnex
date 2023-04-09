@@ -48,16 +48,16 @@ const Footer = () => {
   }
 
   return (
-    <div className=' flex flex-col justify-center items-center h-auto sm:h-screen w-full bg-black'>
-      <div className=' md:w-[70%] h-full md:flex sm:justify-between items-center text-white py-5 lg:py-0 md:mt-28'>
-        <div className=' flex flex-col gap-5 md:gap-10'>
-          <div className=' text-4xl md:text-6xl font-semibold text-white'>
-            <h1 className=' text-center md:text-start'>let's talk</h1>
+    <div className=' flex flex-col justify-center items-center h-auto lg:h-full w-full bg-black'>
+      <div className=' md:w-[70%] h-full lg:flex sm:justify-between items-center text-white py-5 lg:py-0 md:mt-28'>
+        <div className=' flex flex-col gap-[36px] md:gap-10'>
+          <div className=' text-4xl lg:text-[70px] font-gilroy-extrabold text-white'>
+            <h1 className=' text-center lg:text-start'>let's talk</h1>
           </div>
-          <div className=' w-full md:w-48 text-1xl md:text-3xl font-sans font-extralight'>
-            <p className=' text-center md:text-start'>have some great idea or brand to develop? let's build it together</p>
+          <div className=' w-full md:w-[368px] lg:h-[330px] text-1xl lg:text-[48px] font-gilroy-light'>
+            <p className=' text-center leading-tight lg:text-start'>have some great idea or brand to develop? let's build it together</p>
           </div>
-          <div className=' text-xs md:text-base'>
+          <div className=' text-xs font-gilroy-light md:text-[16px]'>
             <p className=' text-center md:text-start'>our team will reach out to you as soon as <br/>possible</p>
           </div>
         </div>
@@ -78,13 +78,13 @@ const Footer = () => {
             </label>
           </form>
       </div>
-      <div className=' flex flex-col w-full h-48 justify-center items-center gap-3 text-white sm:h-80 text-lg'>
-        <span className=' text-lg'>connect with us</span>
+      <div className=' flex flex-col w-full h-48 justify-center xl:mt-10 items-center gap-3 text-white sm:h-80 text-lg'>
+        <span className=' font-gilroy-semi-bold text-[24px]'>connect with us</span>
         <div className=' flex flex-wrap gap-5 items-center'>
-          <Link to='/about'><TwitterIcon/></Link>
-          <Link to='/about'><LinkedInIcon/></Link>
-          <Link to='/about'><InstagramIcon/></Link>
-          <Link to='/about'><FacebookIcon/></Link>
+          <Link to='/about'><TwitterIcon width={31} height={31}/></Link>
+          <Link to='/about'><LinkedInIcon width={31} height={31}/></Link>
+          <Link to='/about'><InstagramIcon width={31} height={31}/></Link>
+          <Link to='/about'><FacebookIcon width={31} height={31}/></Link>
           {/* <img src={fb} alt='facebook' width={20}/> */}
         </div>
       </div>

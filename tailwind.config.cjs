@@ -17,8 +17,16 @@ module.exports = {
         'linegreen':"#23FFF2",
      },
       fontFamily :{
-        'gilroy': ['Gilroy', 'sans-serif'],
-        'gilroy-bold': ['GilroyExtraBold', 'sans-serif']
+        'gilroy-light': ['GilroyLight', 'sans-serif'],
+        'gilroy-extrabold': ['GilroyExtraBold', 'sans-serif'],
+        'gilroy-bold': ['GilroyBold', 'sans-serif'],
+        'gilroy-semi-bold': ['GilroySemiBold', 'sans-serif'],
+        'gilroy-regular': ['GilroyRegular', 'sans-serif'],
+        'gilroy-thin': ['GilroyThin', 'sans-serif'],
+        'gilroy-medium': ['GilroyMedium', 'sans-serif'],
+        'gilroy-heavy': ['GilroyHeavy', 'sans-serif'],
+        'gilroy-black': ['GilroyBlack', 'sans-serif'],
+        'gilroy-ultra-light': ['GilroyUltraLight', 'sans-serif'],
       },
       backgroundImage: {
         'serviceLander': "url('@assets/serviceLander.png')",
@@ -30,7 +38,7 @@ module.exports = {
         'manart': "url('@assets/manArt.png')",
         'cardbg': "url('@assets/cardbg.jpg')",
         'vector': "url('@assets/backgroundVector.png')",
-        'moon': "url('@assets/brandImage.png')",
+        'moon': "url('@assets/brandMoon.png')",
         'landerImg': "url('@assets/landerImage1.png')",
         'balloon': "url('@assets/balloon.png')",
         'balloon1': "url('@assets/balloon1.png')",

@@ -12,14 +12,9 @@ li {
   list-style: none;
 }
 
-.active {
-  font-weight: bolder;
-  /* transition: all 0.5s; */
-}
 
 .active .text-1 {
   display: inline-block;
-  font-size: 12px;
 }
 
 .active .line {
@@ -30,5 +25,4 @@ li {
 
 li:hover .text-1{
   display: inline-block;
-  font-size: 14px;
 }

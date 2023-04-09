@@ -40,23 +40,23 @@ const Navbar = () => {
 
   return (
 
-    <div className=' w-full h-20 fixed bg-black bg-opacity-50 lg:bg-none lg:bg-opacity-0 lg:absolute top-0 lg:top-0 z-40'>
+    <div className=' w-full h-20 lg:h-[110px] fixed bg-black bg-opacity-50 lg:bg-none lg:bg-opacity-0 lg:static z-40'>
       {searchToggle && <Search toggler={searchToggle}/>}
-      <div className=' h-full md:w-4/5 w-[90%] m-auto items-center flex justify-between'>
+      <div className=' h-full xl:max-w-[95%] xl:min-w-[90%] w-[90%] m-auto items-center flex justify-between'>
         <div className='cursor-pointer z-50'>
           <Link to='/' className=' flex gap-2 items-center'>
-            <img src={logo} alt='Logo' width={20} height={20}/>
-            <span className=' text-white font-bold text-xl'>hubnex Labs</span>
+            <img src={logo} alt='Logo' width={25} height={30}/>
+            <span className=' text-white font-gilroy-bold text-[30px] lg:text-[36px]'>hubnex labs</span>
           </Link>
         </div>
-        <div className=' hidden xl:flex gap-16 items-center font-bold font-gilroy text-white'>
+        <div className=' text-[18px] hidden xl:flex xl:gap-16 items-center font-gilroy-semi-bold text-white z-10'>
           <NavLink to='/about' className={({ isActive }) => isActive ? 'bg-white px-5 py-2 text-black rounded-full' : ''}>About Us</NavLink>
           <div className=' flex items-center'>
-            <NavLink to='/service' className={({ isActive }) => isActive ? 'decoration-red-600 underline decoration-2 underline-offset-8 ' : ''}>Services</NavLink>
+            <NavLink to='/service' className={({ isActive }) => isActive ? 'decoration-white underline decoration-2 underline-offset-8 ' : ''}>Services</NavLink>
             <span className=' cursor-pointer' onClick={handleServices}>{dropServices ?<KeyboardArrowUpIcon/>:<KeyboardArrowDown/>}</span>
           </div>
           <div className=' flex items-center justify-center'>
-            <NavLink to='/industries' className={({ isActive }) => isActive ? 'decoration-red-600 underline decoration-2 underline-offset-8  ' : ''}>Industries</NavLink>
+            <NavLink to='/industries' className={({ isActive }) => isActive ? 'decoration-white underline decoration-2 underline-offset-8  ' : ''}>Industries</NavLink>
             <span className=' cursor-pointer' onClick={handleIndustries}>{dropIndustries ?<KeyboardArrowUpIcon/>:<KeyboardArrowDown/>}</span>
           </div>
           {
@@ -67,8 +67,8 @@ const Navbar = () => {
             </div>
           }
           <NavLink to='/contact' className={({ isActive }) => isActive ? 'bg-white px-5 py-2 text-black rounded-full' : ''}>Contact</NavLink>
-          <img onClick={handleSearch} src={searchIcon} alt="search icon" width={20} height={20} className='cursor-pointer z-50'/>
-          <Link to='/startup-program'><button className=' border-white bg-transparent border-2 py-[4px] px-3 rounded-full text-sm text-white'>Startup Program</button></Link>
+          <img onClick={handleSearch} src={searchIcon} alt="search icon" width={25} height={25} className='cursor-pointer z-50'/>
+          <Link to='/startup-program'><button className=' border-white bg-transparent border-2 py-[10px] px-[20px] rounded-full text-[20px] font-gilroy-semi-bold text-white'>Startup Program</button></Link>
         </div>
         <div className=' flex xl:hidden z-50'>
           <img onClick={handleSearch} src={search} className=' z-50 absolute top-[30px] right-24 w-6' />

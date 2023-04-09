@@ -6,7 +6,7 @@ import ScrollTop from './ScrollTop.js'
 const Root = () => {
   return (
     <>
-      <div className='h-screen w-full font-gilroy'>
+      <div className='font-gilroy-regular'>
         <ScrollTop/>
           <Outlet />
       </div>

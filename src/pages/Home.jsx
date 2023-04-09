@@ -37,11 +37,11 @@ const Home = () => {
                 <Brand/>
               </section>
               
-              <section  id='section-3' className='h-full w-full '>
+              <section  id='section-3' className='h-full w-full bg-vector relative bg-cover bg-no-repeat bg-center'>
                 <Services/>
               </section>
               
-              <section id='section-4' className='h-full w-full '>
+              <section id='section-4' className='h-full w-full md:bg-balloon bg-balloonMob bg-blue-200 relative bg-center bg-[length:100%_100%] bg-no-repeat '>
                 <Testimonial/>
               </section>
               

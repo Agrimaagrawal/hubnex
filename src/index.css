@@ -3,10 +3,42 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Gilroy';
+    font-family: 'GilroyLight';
     src: url(./assets/Gilroy-Light.otf);
 }
 @font-face {
     font-family: 'GilroyExtraBold';
     src: url(./assets/Gilroy-ExtraBold.otf);
+}
+@font-face {
+    font-family: 'GilroyBold';
+    src: url(./assets/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: 'GilroySemiBold';
+    src: url(./assets/Gilroy-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'GilroyThin';
+    src: url(./assets/Gilroy-Thin.ttf);
+}
+@font-face {
+    font-family: 'GilroyRegular';
+    src: url(./assets/Gilroy-Regular.ttf);
+}
+@font-face {
+    font-family: 'GilroyBlack';
+    src: url(./assets/Gilroy-Black.ttf);
+}
+@font-face {
+    font-family: 'GilroyUltraLight';
+    src: url(./assets/Gilroy-UltraLight.ttf);
+}
+@font-face {
+    font-family: 'GilroyHeavy';
+    src: url(./assets/Gilroy-Heavy.ttf);
+}
+@font-face {
+    font-family: 'GilroyMedium';
+    src: url(./assets/Gilroy-Medium.ttf);
 }

@@ -7,12 +7,12 @@ import vision from '@assets/Our-Vision.png.png';
 
 const Aboutsection3 = () => {
   return (
-    <div>
-      <div className='bg-ablack w-screen min-h-screen flex items-center gap-5 flex-col '>
-        <div className='text-white font-gilroy-bold text-4xl md:text-[3rem] text-center px-5 md:px-0 pt-20 max-w-[600px] font-bold'>
-          <h1 className='text-twhite'>Your success is our top priority -always.</h1>
+    <>
+      <div className='bg-ablack w-full h-screen flex justify-evenly items-center gap-5 flex-col '>
+        <div className='text-white font-gilroy-bold text-4xl flex justify-center items-center lg:h-[146px] lg:w-full md:text-[3rem] lg:text-[70px] text-center px-5 md:px-0 pt-20 max-w-[600px]'>
+          <h1 className='text-twhite h-full w-full leading-10 '>Your success is our top priority -always.</h1>
         </div>
-        <div className='text-white font-gilroy-light text-base md:text-[1.3rem] text-center p-5 max-w-[1090px] mt-3'>
+        <div className='text-white flex justify-center items-center lg:h-[180px] font-gilroy-regular text-base md:text-[1.3rem] lg:text-[23px] text-center p-5 max-w-[1090px] mt-3'>
           <p>At our IT consultancy firm, we prioritize certain values and approaches that have helped us build a reputation for excellence in the industry. First and foremost, we prioritize customer satisfaction, and we always go the extra mile to ensure our clients' needs are met.</p>
         </div>
         <div className='flex flex-wrap justify-center mt-6'>
@@ -40,14 +40,10 @@ const Aboutsection3 = () => {
             <div className='m-4 bg-orange p-2 rounded-full '><img src={strategy} alt="mission" className='w-[31px] h-[31px]'></img></div>
             <h1 className='text-center mt-2 text-grey text-2xl font-semibold'>Our Strategy</h1>
             <div className='text-center m-2 text-grey text-base'>Leverage next-gen technologies, robust internal frameworks, and defined processes to provide best-in-class services within timelines</div>
-
-          </div>
-          
-
+          </div>     
         </div>
-
       </div>
-    </div>
+    </>
   )
 }
 
