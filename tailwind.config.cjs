@@ -7,16 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        'pink': '#FF426F',
-        'ablack': '#100F0F',
-        'twhite': ' #F4F4F4',
-        'orange': '#FF5300',
-        'grey': ' #565656',
-        'bgblack': '#0D0D0D',
-        'linegreen': "#23FFF2",
-      },
-      fontFamily: {
+      colors:{
+        'pink':'#FF426F',
+        'ablack':'#100F0F',
+        'twhite':' #F4F4F4',
+        'orange':'#FF5300',
+        'grey':' #565656',
+        'bgblack':'#0D0D0D',
+        'linegreen':"#23FFF2",
+        'bblack':"#040404",
+     },
+      fontFamily :{
         'gilroy-light': ['GilroyLight', 'sans-serif'],
         'gilroy-extrabold': ['GilroyExtraBold', 'sans-serif'],
         'gilroy-bold': ['GilroyBold', 'sans-serif'],
@@ -27,10 +28,6 @@ module.exports = {
         'gilroy-heavy': ['GilroyHeavy', 'sans-serif'],
         'gilroy-black': ['GilroyBlack', 'sans-serif'],
         'gilroy-ultra-light': ['GilroyUltraLight', 'sans-serif'],
-        'poppins-semibold': ['Poppins:wght@600', 'sans-serif'],
-        'poppins-regular': ['Poppins', 'sans-serif'],
-        'inter-semibold': ['Inter:wght@600', 'sans-serif'],
-        'inter-medium': ['Inter', 'sans-serif']
       },
       backgroundImage: {
         'serviceLander': "url('@assets/serviceLander.png')",

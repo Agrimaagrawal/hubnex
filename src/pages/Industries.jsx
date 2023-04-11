@@ -1,10 +1,9 @@
 import React from 'react'
 import Hero from '../components/industrypage/Hero'
+import Testimonial from '../components/industrypage/Testimonial'
 import Work from '../components/industrypage/Work'
 import Footer from '../components/footer/Footer'
-import Innovation from '../components/industrypage/Innovation'
-import Partners from '../components/aboutpage/Partners'
-import Swiperpartners from '../components/aboutpage/Swiperpartners'
+import Cards from '../components/industrypage/Cards'
 
 
 const Industries = ()=>{
@@ -20,7 +19,7 @@ const Industries = ()=>{
         <Hero/>
         <Innovation/>
         <Work/>
-        {isMobile()? <Swiperpartners/> :<Partners/>}
+        <Testimonial/>
         <Footer />
     </div>
   )
