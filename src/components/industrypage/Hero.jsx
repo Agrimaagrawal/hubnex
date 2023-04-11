@@ -1,25 +1,25 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
-    <div className=' h-screen bg-indusLander bg-cover bg-[90%] md:bg-center w-full relative '>
+    <div>
+       <div className=' xl:h-[838px] h-screen   bg-healthindus bg-cover bg-center w-full relative '>
         <Navbar />
-      <div className=' h-[calc(100vh-80px)] w-full flex items-center justify-center'>
-        <div className=' w-full md:w-[80%] flex h-full items-center'>
+        <div className=' h-screen w-full flex items-center justify-center'>
+        <div className=' w-[80%] flex items-center'>
+            <div className=' text-white flex flex-col justify-center items-center lg:items-start gap-10 w-90 max-[820px]:text-center'>
+                <span className=' xl:text-[70px] text-5xl font-gilroy-bold'>empowering <br/> healthcare with AI</span>
+                <p className=' text-[24px] font-gilroy-semi-bold '>We help you realize intelligent, connected, <br></br>and patient-centric healthcare.</p>
+                <button className=' h-[44px] w-[140px] border-violet-700 border-[2px] lg:py-[10px] px-5 border-t-0 border-l-0 relative bg-transparent rounded-full'>
+                    <Link className=' w-full h-full rounded-full flex justify-center items-center  font-gilroy-semi-bold text-[20px] absolute bg-white text-black -left-[2px] bottom-[2px] border-white border-2'>Let's talk</Link>
+                  </button>
 
-            <div className=' text-white flex flex-col gap-10 md:h-auto h-full  w-[90%] m-auto md:m-0 md:w-[600px] max-[820px]:text-center'>
-              <div className=' flex flex-2 lg:flex-initial justify-center flex-col gap-10 w-full h-full'>
-                <span className=' text-3xl md:text-6xl font-gilroy-bold leading-[50px]'>empowering healthcare with AI</span>
-                <p className=' text-lg md:w-[450px]'>We help you realize intelligent, connected, and patient-centric healthcare.</p>
-              </div>
-              <div className=' flex-1 lg:flex-initial md:items-start md:justify-start items-end justify-end flex w-full h-full'>
-                <button className=' w-max py-2 px-5 bg-white font-gilroy-bold text-black rounded-full max-[820px]:mx-auto shadow-md shadow-violet-500'>Let's talk</button>
-              </div>
             </div>
-
         </div>
-      </div>
+    </div>
+    </div>
     </div>
   )
 }

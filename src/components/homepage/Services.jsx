@@ -84,7 +84,7 @@ const Services = () => {
 
             <div className=' md:static md:flex-none flex flex-col justify-center gap-5 items-center md:items-start bottom-5'>
               <p className=' text-lg md:text-[28px] text-center md:text-start font-gilroy-semi-bold'>providing you industry level<br/> solutions to cater your needs and <br/> help you become the next big<br/> thing</p>
-              <Link to='/service'><button className='w-max bg-black text-xs md:text-[20px] text-white py-2 md:py-[10px] px-5 rounded-full'>get started</button></Link>
+              <Link to='/service' className='w-max bg-black text-xs md:text-[20px] text-white py-2 md:py-[10px] px-5 rounded-full'>Get started</Link>
             </div>
         </div>
 

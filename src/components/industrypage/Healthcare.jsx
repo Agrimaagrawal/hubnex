@@ -21,7 +21,9 @@ const Healthcare = () => {
             <div className=' text-white flex flex-col gap-10 w-90 max-[820px]:text-center'>
                 <span className=' text-4xl md:text-5xl font-gilroy-bold'>empowering <br/> healthcare with AI</span>
                 <p className=' text-lg '>We help you realize intelligent, connected, <br></br>and patient-centric healthcare.</p>
-                <button className=' w-max py-2 px-5 bg-white text-black rounded-full max-[820px]:mx-auto'>Let's talk</button>
+                <button className=' h-[44px] w-[140px] border-violet-700 border-[2px] lg:py-[10px] px-5 border-t-0 border-l-0 relative bg-transparent rounded-full'>
+                    <Link className=' w-full h-full rounded-full flex justify-center items-center  font-gilroy-semi-bold text-[20px] absolute -left-[2px] bottom-[2px] border-white border-2'>Read more</Link>
+                  </button>            
             </div>
         </div>
     </div>

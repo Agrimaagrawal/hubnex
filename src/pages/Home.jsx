@@ -28,20 +28,20 @@ const Home = () => {
 
           <div className=' h-full w-full '>
 
-              <section id='section-1' className='h-full w-full bg-landerImg md:bg-cover bg-no-repeat bg-[80%] md:bg-center'>
+              <section id='section-1' className='h-full xl:h-[982px] w-full bg-landerImg md:bg-cover bg-no-repeat bg-[80%] md:bg-center'>
                   <Navbar/>
                   <Hero />
               </section>
               
-              <section id='section-2' className='h-full w-full '>
+              <section id='section-2' className='h-full xl:h-[982px] w-full '>
                 <Brand/>
               </section>
               
-              <section  id='section-3' className='h-full w-full bg-vector relative bg-cover bg-no-repeat bg-center'>
+              <section  id='section-3' className='h-full xl:h-[982px] w-full bg-vector relative bg-cover bg-no-repeat bg-center'>
                 <Services/>
               </section>
               
-              <section id='section-4' className='h-full w-full md:bg-balloon bg-balloonMob bg-blue-200 relative bg-center bg-[length:100%_100%] bg-no-repeat '>
+              <section id='section-4' className='h-[982px] w-full md:bg-balloon bg-balloonMob bg-blue-200 relative bg-center bg-[length:100%_100%] bg-no-repeat '>
                 <Testimonial/>
               </section>
               
@@ -49,7 +49,7 @@ const Home = () => {
                 <About/>
               </section>
               
-              <section id='section-6' className='h-full w-full ' >
+              <section id='section-6' className=' h-auto w-full' >
                 <Footer/>
               </section>
           </div>

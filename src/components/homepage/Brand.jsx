@@ -6,9 +6,9 @@ const Brand = () => {
  
     <div className='w-full h-full flex justify-center flex-col items-center relative bg-moon bg-cover bg-no-repeat bg-center'>
         <div className=' h-full w-full text-white flex justify-center'>
-            <div className=' flex flex-col md:justify-start lg:gap-14 w-[300px] mt-36 md:mt-20  md:h-full md:w-full items-center'>
-                <h1 className=' text-4xl md:text-[80px]  font-gilroy-bold text-center'>helping you build products</h1>
-                <span className=' text-black pt-5 font-gilroy-bold text-4xl md:text-[80px]'>that shine</span>
+            <div className=' flex flex-col md:justify-start lg:gap-14 w-[300px] mt-36 md:mt-48 lg:mt-20 xl:mt-20 md:h-full md:w-full items-center'>
+                <h1 className=' text-4xl lg:text-[70px] xl:text-[80px]  font-gilroy-bold text-center'>helping you build products</h1>
+                <span className=' text-black pt-5 font-gilroy-bold text-4xl lg:text-[70px] xl:text-[80px]'>that shine</span>
             </div>
         </div>
         <div className=' text-white'>

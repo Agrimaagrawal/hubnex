@@ -4,7 +4,7 @@ import hands from '../../assets/hands.png'
 const Aboutus = () => {
   return (
     <>
-    <div className='w-full  flex justify-center items-center h-[617px] bg-center bg-cover flex-col relative '>
+    <div className='w-full overflow-hidden flex justify-center items-center h-[617px] bg-center bg-cover flex-col relative '>
         <img src={hands} className="absolute mix-blend-overlay"></img>
         <div className='flex  flex-col text-white h-full text-center justify-center items-center font-gilroy gap-10 
         bg-gradient-to-l from-purple-500 to-orange  '>

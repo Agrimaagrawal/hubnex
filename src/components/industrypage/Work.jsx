@@ -1,65 +1,44 @@
 import React from 'react'
 import thanos from '@assets/thano.png'
-import plus from '@assets/Plus.png'
-import vector2 from '@assets/vector2.png'
+import '../serviceUpdated/Ourservice.css'
+
 
 const Work = () => {
   return (
-    <div className=' h-screen w-full relative bg-black flex justify-center items-center'>
-    <img src={thanos} className=' md:hidden absolute bottom-0 left-0 brightness-[50%] w-full h-[500px] object-cover'/>
-    <img src={vector2} className=' absolute h-full w-full brightness-[20%]'/>
-        <div className=' w-[80%] h-full flex flex-col justify-evenly md:justify-center md:items-center md:gap-10 md:gap-0 text-white'>
-            <div className=' flex flex-col gap-3 justify-center items-center z-30'>
-                <span className=' text-4xl md:text-5xl font-bold'>What We Do</span>
-                <p className=' text-lg text-center'>Delivering exponential value throughout the care ecosystem</p>
-            </div>
-            <div className=' flex justify-center items-center'>
-                <div className=' justify-between hidden md:flex  items-center w-full'>
-                    <img src={thanos} className=' w-full '/>
-                </div>
+    <>
+      <div className='bg-ablack w-full xl:h-[982px] h-auto  md:py-0 md:min-h-screen flex  items-center flex-col '>
+        
+            <div className='text-white text-[60px] font-gilroy-bold pt-14 '><h1>What We Do</h1></div>
+            <div className='text-white text-lg font-gilroy-regular text-[24px] p-6' ><p>Delivering exponential value throughout the care ecosystem</p></div>
+            <div className='flex flex-wrap justify-center'>
             
-                <div className=' w-full flex items-center justify-center h-full z-30'>
-                            <div className=' flex w-full md:w-[80%] flex-col gap-5 text-lg font-bold'>
-                                <div className=' flex w-full gap-8'>
-                                    <img src={plus} className= ' bg-white' />
-                                    <span>Web Design</span>
-                                </div>
-                                <hr/>
+              <div className='card text-white bg-white/5 backdrop-blur-lg rounded-md border p-4 xl:w-[640px] xl:h-[302px] m-4 '>
+                    <h1 className='font-inter-semibold xl:text-[32px] text-2xl  m-4 xl:mb-[41px] xl:ml-[35px] xl:mt-[55px]'>Healthcare Provider</h1>
+                    <p className='font-inter-medium text-[16px] xl:w-[530px] xl:h-[110px] xl:ml-[35px] xl:mb-[57px]'>Technology led value-driven solutions for patient care. We offer innovative and end-to-end integrated solutions for healthcare providers. Our solutions enhance the efficiency of physicians, 
+                        hospitals, ancillary facilities, clinics, governmental health bodies and public health organizations.</p>
 
-                                <div className=' flex w-full gap-8'>
-                                    <img src={plus} className= ' bg-white'/>
-                                    <span>Digital Marketing</span>
-                                </div>
-                                <hr/>
-                                
-                                <div className=' flex w-full gap-8'>
-                                    <img src={plus} className= ' bg-white'/>
-                                    <span>UI/UX Design</span>
-                                </div>
-                                <hr/>
+                </div>
+                <div className='card text-white bg-white/5 backdrop-blur-lg rounded-md border p-4 xl:w-[640px] xl:h-[302px] m-4'>
+                    <h1 className='font-inter-semibold xl:text-[32px] text-2xl mb-4 xl:mb-[41px] xl:ml-[35px] xl:mt-[55px]'>MedTech</h1>
+                    <p className='font-inter-medium text-[16px] xl:w-[530px] xl:h-[110px] xl:ml-[35px] xl:mb-[57px]'>Enabling device manufacturers to design and build nexgen healthcare technologies. Our MedTech practice is a partner of choice for global industry majors. We develop next generation products and 
+                        technologies through strong domain capabilities in end to end medical product development solutions.</p>
 
-                                <div className=' flex w-full gap-8'>
-                                    <img src={plus} className= ' bg-white'/>
-                                    <span>App Development</span>
-                                </div>
-                                <hr/>
+                </div>
+                <div className='card text-white bg-white/5 backdrop-blur-lg rounded-md border p-4 xl:w-[640px] xl:h-[302px] m-4'>
+                    <h1 className='font-inter-semibold xl:text-[32px] text-2xl mb-4 xl:mb-[41px] xl:ml-[35px] xl:mt-[55px]'>Pharmaceuticals</h1>
+                    <p className='font-inter-medium text-[16px] xl:w-[530px] xl:h-[110px] xl:ml-[35px] xl:mb-[57px]'>Committed to enhance continuum of care for our clients by innovative and disruptive technologies. Our deep pharmaceutical domain expertise, historical R&D experience, outcome-based partnerships with global giants 
+                        and diverse geographical outreach have enabled our clients to achieve seamless digital transformation</p>
 
-                                <div className=' flex w-full gap-8'>
-                                    <img src={plus} className= ' bg-white'/>
-                                    <span>Cloud Computing</span>
-                                </div>
-                                <hr/>
-
-                                <div className=' flex w-full gap-8'>
-                                    <img src={plus} className= ' bg-white'/>
-                                    <span>Custom Software Development</span>
-                                </div>
-                                <hr/>
-                            </div>
-                    </div>
+                </div>
+                <div className='card text-white bg-white/5 backdrop-blur-lg rounded-md border p-4 xl:w-[640px] xl:h-[302px] m-4'>
+                    <h1 className='font-inter-semibold xl:text-[32px] text-2xl mb-4 xl:mb-[41px] xl:ml-[35px] xl:mt-[55px]'>Healthcare Payors</h1>
+                    <p className='font-inter-medium text-[16px] xl:w-[530px] xl:h-[110px] xl:ml-[35px] xl:mb-[57px]'>Next-generation solutions empowering Payors to improve care quality and increase member satisfaction. Our Healthcare Payer Practice has been consistently ranked as one of the
+                         most matured practices in the industry, with over 15 years’ experience in serving several US Health Insurers.</p>
+                </div>
             </div>
+
         </div>
-    </div>
+    </>
   )
 }
 

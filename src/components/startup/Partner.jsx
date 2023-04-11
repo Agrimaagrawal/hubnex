@@ -15,13 +15,13 @@ const Partner = () => {
   }
 
   return (
-    <div className=' bg-black h-screen text-white w-full justify-center py-10 flex'>
+    <div className=' bg-black h-[1024px] text-white w-full justify-center md:py-20 flex'>
        <div className=' w-full md:w-[80%] flex flex-col justify-between'>
          {isMobile() ?  
           <Swiperpartners/>
          :
-          <div className=' flex flex-col gap-10 w-full'>
-           <span className=' text-xl'>our partners</span>
+          <div className=' flex flex-col gap-14 w-full'>
+           <span className=' text-[20px] font-gilroy-medium'>our partners</span>
             <div className=' flex justify-between flex-wrap'>
               <img src={pantera} alt="" />
               <img src={reddit} alt="" />
@@ -32,27 +32,27 @@ const Partner = () => {
            </div>
            }
 
-           <div className=' flex w-full lg:justify-between md:flex-row flex-col  flex-wrap items-center justify-evenly h-full md:justify-center '>
+           <div className=' flex w-full lg:justify-between lg:flex-row flex-col  flex-wrap items-center justify-evenly h-full md:justify-center '>
             <div className=' flex lg:gap-10 h-auto '>
-              <div className=' flex flex-col lg:gap-5 w-44 items-center'>
-                <span className=' text-5xl font-bold'>75,000+</span>
-                <p className=' text-center text-xl'>Startups & Service Providers</p>
+              <div className=' flex flex-col lg:gap-5 w-56 items-center'>
+                <span className=' text-[50px] lg:text-[80px] font-gilroy-bold'>75,000+</span>
+                <p className=' text-center font-gilroy-semi-bold text-[24px] lg:text-[28px]'>Startups & Service Providers</p>
               </div>
             </div>
             <hr className=' border-[1px] border-white h-[20%] hidden md:flex'/>
 
             <div className=' flex lg:gap-10 h-auto  flex-col lg:flex-row '>
-              <div className=' flex flex-col lg:gap-5 w-44 items-center '>
-                <span className=' text-5xl font-bold'>1,500+</span>
-                <p className=' text-center text-xl'>Institutional Investors</p>
+              <div className=' flex flex-col lg:gap-5 w-56 items-center '>
+                <span className=' text-[50px] lg:text-[80px] font-gilroy-bold'>1,500+</span>
+                <p className=' text-center font-gilroy-semi-bold text-[24px] lg:text-[28px]'>Institutional Investors</p>
               </div>
             </div>
             <hr className=' border-[1px] border-white h-[20%] hidden md:flex'/>
 
             <div className=' flex lg:gap-10 h-auto'>
-              <div className=' flex flex-col lg:gap-5 w-44 items-center '>
-                <span className=' text-5xl font-bold'>9,000+</span>
-                <p className=' text-center text-xl'>Angel <br/>Investors</p>
+              <div className=' flex flex-col lg:gap-5 w-56 items-center '>
+                <span className=' text-[50px] lg:text-[80px] font-gilroy-bold'>9,000+</span>
+                <p className=' text-center font-gilroy-semi-bold text-[24px] lg:text-[28px]'>Angel <br/>Investors</p>
               </div>
             </div>
            </div>

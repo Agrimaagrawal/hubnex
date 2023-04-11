@@ -50,7 +50,7 @@ const Footer = () => {
   return (
     <div className=' flex flex-col justify-center items-center h-auto lg:h-full w-full bg-black'>
       <div className=' md:w-[70%] h-full lg:flex sm:justify-between items-center text-white py-5 lg:py-0 md:mt-28'>
-        <div className=' flex flex-col gap-[36px] md:gap-10'>
+        <div className=' flex flex-col gap-[36px] md:gap-8'>
           <div className=' text-4xl lg:text-[70px] font-gilroy-extrabold text-white'>
             <h1 className=' text-center lg:text-start'>let's talk</h1>
           </div>
@@ -58,10 +58,10 @@ const Footer = () => {
             <p className=' text-center leading-tight lg:text-start'>have some great idea or brand to develop? let's build it together</p>
           </div>
           <div className=' text-xs font-gilroy-light md:text-[16px]'>
-            <p className=' text-center md:text-start'>our team will reach out to you as soon as <br/>possible</p>
+            <p className=' text-center md:text-start leading-6'>our team will reach out to you as soon as <br/>possible</p>
           </div>
         </div>
-          <form className='flex flex-col gap-4 m-auto w-80 md:w-auto md:m-0 mt-10  md:mt-0' onSubmit={handleSubmit}>
+          <form className='flex flex-col gap-4 m-auto text-[16px] w-80 md:w-auto md:m-0 mt-10  md:mt-0' onSubmit={handleSubmit}>
             <label className=' text-gray-200' htmlFor='first_name'>FIRST NAME</label>
             <input className='  outline-none bg-transparent border-b-[1px] border-b-gray-300 w-80 md:w-96' type='text' id='first_name' required maxLength={25} onChange={(e)=>setFirstName(e.target.value)}/>
             <label className=' text-gray-200' htmlFor='last_name'>LAST NAME</label>
@@ -72,40 +72,41 @@ const Footer = () => {
             <input className='  outline-none bg-transparent border-b-[1px] border-b-gray-300 w-80 md:w-96' type='tel' id='mobile_no' required maxLength={12} onChange={(e)=>setPhoneNo(e.target.value)}/>
             <label className=' text-gray-200' htmlFor='message'>MESSAGE</label>
             <input className=' pt-5 outline-none bg-transparent border-b-[1px] border-b-gray-300 w-80 md:w-96' type='text' id='message' required onChange={(e)=>setMessage(e.target.value)}/>
-            <label htmlFor='submit' className='flex gap-3 bg-transparent cursor-pointer border-white border-[1px] mt-5 shadow-md shadow-violet-500 py-2 px-5 w-max rounded-full'>
-              <input type='submit' className='  cursor-pointer' id='submit'/>
-              <img src={arrow} alt="arrow" width={15} height={15} className='object-contain'/>
-            </label>
+            <button className=' h-[41px] mt-10 w-[121px] py-1 px-5 border-violet-700 border-[2px] border-t-0 border-l-0 relative bg-transparent rounded-full'>
+              <label htmlFor='submit' className='flex cursor-pointer gap-3 w-full h-full rounded-full font-gilroy-light items-center justify-center text-[18px] absolute -left-[2px] bottom-[2px] border-white border-2'>
+                    <input type='submit' placeholder='Submit' className=' cursor-pointer'/>
+                    <img src={arrow} alt="arrow" width={15} height={15} className='object-contain'/>   
+              </label>
+            </button>
           </form>
       </div>
-      <div className=' flex flex-col w-full h-48 justify-center xl:mt-10 items-center gap-3 text-white sm:h-80 text-lg'>
+      <div className=' flex flex-col w-full h-40 justify-center xl:mt-8 items-center gap-8 text-white sm:h-80 text-lg'>
         <span className=' font-gilroy-semi-bold text-[24px]'>connect with us</span>
         <div className=' flex flex-wrap gap-5 items-center'>
-          <Link to='/about'><TwitterIcon width={31} height={31}/></Link>
-          <Link to='/about'><LinkedInIcon width={31} height={31}/></Link>
-          <Link to='/about'><InstagramIcon width={31} height={31}/></Link>
-          <Link to='/about'><FacebookIcon width={31} height={31}/></Link>
-          {/* <img src={fb} alt='facebook' width={20}/> */}
+          <Link to='/about'><TwitterIcon fontSize='large'/></Link>
+          <Link to='/about'><LinkedInIcon fontSize='large'/></Link>
+          <Link to='/about'><InstagramIcon fontSize='large'/></Link>
+          <Link to='/about'><FacebookIcon fontSize='large'/></Link>
         </div>
       </div>
-      <hr className=' w-full border-white border-[1px]'/>
-      <div className=' h-10 md:h-28 w-[80%] m-auto flex justify-center md:justify-between text-white items-center'>
+      <hr className=' w-full border-t-white border-t-[1px]'/>
+      <div className=' h-10 w-[90%] xl:w-[80%] m-auto flex justify-center md:justify-between text-white items-center'>
         <div>
-          <span className=' text-xs'>Copyright <CopyrightIcon fontSize='small'/> 2023 Hubnex. All Rights Reserved</span>
+          <span className=' text-[15px] font-gilroy-light'>Copyright <CopyrightIcon fontSize='small'/> 2023 Hubnex. All Rights Reserved</span>
         </div>
-        <div className='hidden  md:flex gap-2 text-xs '>
+        <div className='hidden lg:flex gap-2 text-[15px] font-gilroy-light '>
           <Link to='/about'>About Us</Link>
-          <hr className=' border-[1px] h-4'/>
+          <hr className=' border-r-[1px] h-5'/>
           <Link to='service'>Data Protection</Link>
-          <hr className=' border-[1px] h-4'/>
+          <hr className=' border-r-[1px] h-5'/>
           <Link to='/admin'>Terms and Conditions</Link>
-          <hr className=' border-[1px] h-4'/>
+          <hr className=' border-r-[1px] h-5'/>
           <Link to='/about'>Privacy Policy</Link>
-          <hr className=' border-[1px] h-4'/>
+          <hr className=' border-r-[1px] h-5'/>
           <Link to='/contact'>Contact Us</Link>
-          <hr className=' border-[1px] h-4'/>
+          <hr className=' border-r-[1px] h-5'/>
           <Link to='/'>Invest in Us</Link>
-          <hr className=' border-[1px] h-4'/>
+          <hr className=' border-r-[1px] h-5'/>
         </div>
       </div>
     </div>

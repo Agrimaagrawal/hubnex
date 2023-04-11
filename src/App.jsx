@@ -120,11 +120,6 @@ function App() {
               element: <Suspense fallback={<Loader/>}><Industries/></Suspense>
             },
             {
-              path:'/Healthcare',
-              element:<Suspense fallback={<Loader/>}><Healthcare/></Suspense>
-            },
-            
-            {
               path: '/contact',
               element: <Suspense fallback={<Loader/>}><Contact/></Suspense>
             },

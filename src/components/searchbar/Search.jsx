@@ -37,18 +37,8 @@ const Search = ({toggler}) => {
   return (
     <>
     {!checkOpen &&
-      <div className=' h-screen bg-transparent w-full justify-center items-center  flex z-[100] top-0 fixed'>
-          <div className=' w-[80%] md:m-[20%] h-[600px] bg-gray-200 flex flex-col rounded-xl overflow-hidden'>
-              <label className=' bg-black w-full flex h-12 items-center px-5'>
-                  <img src={search} className='w-5 h-5 '/>
-                  <input type='search' onChange={handleSearch} value={state.query} className=' bg-black w-[95%] h-full outline-none px-5 text-white' placeholder='Search something...'/>
-                  <img onClick={handleCloseSearch} className=' cursor-pointer' src={close}/>
-              </label>
-               {(state.query === '' ? " " : state.list.map((items)=> (
-                    <p className=' w-full bg-gray-600 py-5 text-xl px-5 text-white border-b border-b-white'>{items}</p>
-                  
-                )))} 
-          </div>
+      <div className=' absolute bg-[#66666633] lg:h-[73px] lg:w-[430px] justify-center items-center flex z-[100] top-24 right-20'>
+        <input type='text' placeholder='Search' className=' px-2 h-[40px] outline-none placeholder:text-white text-white w-[400px] bg-transparent rounded-md border-[2px] border-white'/>
       </div>
     }
     </>
